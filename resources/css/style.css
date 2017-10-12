@@ -1,0 +1,148 @@
+body {
+  font-size: 22px;
+  font-family: Helvetica;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  margin: 0 0;
+}
+
+.header {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  justify-content: flex-start;
+  background-color: black;
+  align-items: center;
+  z-index: 10;
+}
+
+.logo {
+  display: flex;
+  padding-left: 10px;
+  height: 50px;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+}
+.logo img {
+  height: 50px;
+}
+
+nav {
+  width: 550px;
+}
+
+nav span {
+  padding-left: 20px;
+}
+nav a {
+  text-decoration: underline;
+  color: seashell;
+}
+
+.content {
+  display: flex;
+  padding-top: 69px;
+  flex-flow: column;
+  align-items: center;
+}
+
+.mission {
+  width: 1200px;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url(../images/img-mission-background.jpg);
+  margin-bottom: 70px;
+}
+
+.mission .title {
+  background-color: black;
+  width: 1200px;
+}
+
+h2,
+h3,
+h4 {
+  margin: 0px;
+  padding: 10px;
+}
+
+.totm {
+  display: flex;
+  width: 1000px;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.teas {
+  display: flex;
+  width: 1000px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tea {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 10px;
+}
+
+.tea img {
+  width: 300px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+.tea span {
+  margin-bottom: 15px;
+}
+
+.location {
+  display: flex;
+  width: 1200px;
+  height: 500px;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 70px;
+  background-image: url(../images/img-locations-background.jpg);
+}
+
+.location h2 {
+  padding-top: 0px;
+  padding-bottom: 15px;
+}
+
+.box-contents {
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  height: 300px;
+  width: 300px;
+  margin: 0px 20px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  opacity: 1;
+}
+
+.box span {
+  margin: 20px 0px;
+}
+
+.info {
+  height: 200px;
+}
+
+.copyright {
+  text-align: left;
+  padding-left: 20px;
+  margin-bottom: 40px;
+}
